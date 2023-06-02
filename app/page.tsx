@@ -1,9 +1,13 @@
+'use client'
+
 import Image from 'next/image'
 import styles from './page.module.css'
+import { Button } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Button>テストボタン</Button>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
